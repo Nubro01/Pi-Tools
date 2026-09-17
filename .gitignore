@@ -1,0 +1,17 @@
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# PHP/Node dependencies, in case a future tool here uses composer/npm
+vendor/
+node_modules/
+
+# Local secrets/config overrides
+.env
+*.local
