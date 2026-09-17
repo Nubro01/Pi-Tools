@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>calresourceui</id>
+    <name>Calendar Resource Admin UI</name>
+    <summary>Formulieren voor Calendar Resource Management</summary>
+    <description><![CDATA[Voegt een admin-instellingenpagina toe met formulieren om buildings, stories, rooms, vehicles en resources aan te maken, te verwijderen en te restricten - als alternatief voor het handmatig typen van `occ calendar-resource:*` commando's. Vereist dat de app "calendar_resource_management" is geinstalleerd en ingeschakeld.]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author>Ron Nuberg</author>
+    <namespace>CalResourceUI</namespace>
+    <category>organization</category>
+    <website>https://github.com/</website>
+    <bugs>https://github.com/</bugs>
+    <dependencies>
+        <nextcloud min-version="30" max-version="36"/>
+    </dependencies>
+    <settings>
+        <admin>OCA\CalResourceUI\Settings\AdminSettings</admin>
+        <admin-section>OCA\CalResourceUI\Settings\AdminSection</admin-section>
+    </settings>
+</info>
